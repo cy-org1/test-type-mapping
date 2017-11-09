@@ -15,7 +15,9 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+	   "enable_filemap_share": true,
+      "filemap_share_depots": ["msdn.split-conceptual-cy-org1"]
     }
   ],
   "notification_subscribers": [],

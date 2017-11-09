@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.SqlServer.Server.SqlMetaData
+  commentId: T:Microsoft.SqlServer.Server.SqlMetaData
+  id: SqlMetaData
+  parent: Microsoft.SqlServer.Server
+  children:
+  - Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SqlMetaData
+  nameWithType: SqlMetaData
+  fullName: Microsoft.SqlServer.Server.SqlMetaData
+  type: Class
+  source:
+    remote:
+      path: src/System.Data.SqlClient/src/System/Data/Sql/SqlMetaData.cs
+      branch: release/1.1.0
+      repo: https://github.com/dotnet/corefx.git
+    id: SqlMetaData
+    path: ../corefx/src/System.Data.SqlClient/src/System/Data/Sql/SqlMetaData.cs
+    startLine: 26
+  assemblies:
+  - System.Data.SqlClient
+  namespace: Microsoft.SqlServer.Server
+  summary: "This class cannot be inherited"
+  syntax:
+    content: public sealed class SqlMetaData
+    content.vb: Public NotInheritable Class SqlMetaData
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
+  commentId: M:Microsoft.SqlServer.Server.SqlMetaData.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Microsoft.SqlServer.Server.SqlMetaData
+  langs:
+  - csharp
+  - vb
+  name: SqlMetaData(String, SqlDbType)
+  nameWithType: SqlMetaData.SqlMetaData(String, SqlDbType)
+  fullName: Microsoft.SqlServer.Server.SqlMetaData.SqlMetaData(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/System.Data.SqlClient/src/System/Data/Sql/SqlMetaData.cs
+      branch: release/1.1.0
+      repo: https://github.com/dotnet/corefx.git
+    id: .ctor
+    path: ../corefx/src/System.Data.SqlClient/src/System/Data/Sql/SqlMetaData.cs
+    startLine: 58
+  assemblies:
+  - System.Data.SqlClient
+  namespace: Microsoft.SqlServer.Server
+  summary: "class with the specified column name and type"
+  syntax:
+    content: public SqlMetaData(string name)
+    content.vb: Public Sub New(name As String)
+    parameters:
+    - id: name
+      type: System.String
+      description: "\n<p>The name of the column.</p>\n"
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\n<p>The <span class=\"paramref\">Name</span> is <span class=\"languagekeyword\">null</span>.</p>\n"
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "sbc"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
